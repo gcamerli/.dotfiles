@@ -6,14 +6,14 @@ syntax enable					" enable syntax processing
 
 " Spaces & Tabs {{{
 set tabstop=4					" 4 space tab (visual)
-set	softtabstop=4				" 4 space tab (editing)
+set softtabstop=4				" 4 space tab (editing)
 " }}}
 
 " UI Layout {{{
 set number						" show line numbers
-set	showcmd						" show command in bottom bar
+set showcmd						" show command in bottom bar
 set cursorline					" highlight current line
-set	showmatch					" highligth matching parenthesis
+set showmatch					" highligth matching parenthesis
 " }}}
 
 " Searching {{{
@@ -28,6 +28,6 @@ set splitright					" Split to the right for :vs
 " Undo file{{{
 set undofile					" Save undo
 set undodir=$HOME/.vim/undo		" Undo history
-set	undolevels=1000				" Number of undos
+set undolevels=1000				" Number of undos
 set undoreload=10000			" Number of lines for undos
 " }}}
