@@ -12,11 +12,11 @@ This is my shell. There are many like it, but this one is mine.
 
 I love to put my hands on:
 
-+ **git**
++ [**git**](https://git-scm.com/)
 
-+ **vim**
++ [**vim**](https://vim.sourceforge.io/about.php)
 
-+ **bash**
++ [**bash**](https://www.gnu.org/software/bash/)
 
 ### **CC License**
 
