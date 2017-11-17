@@ -1,0 +1,62 @@
+" History
+set history=500
+
+" Language
+let $LANG='en'
+set langmenu=en
+
+" Show line numbers
+set number
+
+" Show command
+set showcmd	
+
+" Highlight current line
+set cursorline	
+
+" Split to the bottom for :sp
+set splitbelow
+
+" Split to the right for :vs
+set splitright	
+
+" Syntax highlighting
+syntax on
+
+" Set utf8 as standard encoding
+set encoding=utf8
+
+" Turn backup off
+set nobackup
+set noswapfile
+
+" Undo settings
+set undofile
+set undodir=$HOME/.vim/undo
+set undolevels=1000
+set undoreload=10000
+
+" Wrap lines
+set wrap
+
+" Highlight search results
+set hlsearch
+
+" Highlight matching results
+set showmatch
+
+
+" Vim Plug
+call plug#begin('~/.vim/plugged')
+
+" NerdTree
+Plug 'scrooloose/nerdtree'
+
+" VimAirline
+Plug 'bling/vim-airline'
+
+" Initialize plugin system
+call plug#end()
+
+" NerdTree keymap
+map <C-n> :NERDTreeToggle<CR>
