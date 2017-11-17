@@ -45,6 +45,8 @@ set hlsearch
 " Highlight matching results
 set showmatch
 
+" Activate man in vim
+runtime ftplugin/man.vim
 
 " Vim Plug
 call plug#begin('~/.vim/plugged')
