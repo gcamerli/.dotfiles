@@ -11,6 +11,9 @@ set number
 " Show command
 set showcmd	
 
+" Enale mouse with a
+set mouse=a
+
 " Highlight current line
 set cursorline	
 
